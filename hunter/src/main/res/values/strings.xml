@@ -1,0 +1,117 @@
+<resources>
+    <string name="signout">&#xf08b;</string>
+    <string name="help">&#xf003;</string>
+    <string name="home">&#xf015;</string>
+    <string name="barcode">&#xf029;</string>
+    <string name="myprofile">&#xf007;</string>
+    <string name="changepassword">&#xf084;</string>
+    <string name="mediclaim">&#xf21e;</string>
+    <string name="applications">&#xf1ab;</string>
+    <string name="attendance">&#xf251;</string>
+    <string name="documents">&#xf24d;</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+    <string-array name="array_districtname">
+        <item>Select District</item>
+        <item>Anatapur</item>
+        <item>Afghanistan</item>
+        <item>Chittor</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+    </string-array>
+
+
+    <string name="day">&#xf0a4;</string>
+    <string name="sale">&#xf1ad;</string>
+    <string name="product">&#xf0d6;</string>
+    <string name="registration">&#xf19a;</string>
+    <string name="stn">&#xf2d2;</string>
+    <string name="card">&#xf0a9;</string>
+    <string name="deposit">&#xf156;</string>
+    <string name="calendar">&#xf073;</string>
+    <string name="fontname">Roboto.ttf</string>
+
+    <string name="quot">If you see the moon.... You see the beauty of God, If you see the Sun.... You see the power of God, And if you see the Mirror.... You see the best Creation of God, So Believe in YOURSELF.... - Ratan Tata</string>
+    <string name="scanner_activity">ZXing Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZXing Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZXing Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZXing Scanner - Simple Fragment Activity</string>
+    <string name="full_screen_scanner_fragment_activity">ZXing Scanner - Full Screen Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="full_screen_sample">Full Screen Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="delete">&#xf014;</string>
+    <string name="app_name">Hunter</string>
+    <string name="user_id">User Id</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="powered_by_mnt_soft">Powered by MNT Soft</string>
+    <string name="hunter">Hunter</string>
+    <string name="branches">Branches</string>
+    <string name="billing">Billing</string>
+    <string name="payment">Payment</string>
+    <string name="payment_report">Payment Report</string>
+    <string name="billing_report">Billing Report</string>
+    <string name="otp_sent_to_mobile">Please Enter the OTP sent to your mobile number</string>
+    <string name="enter_6_digit_s_otp">Enter 6 digit\'s OTP</string>
+    <string name="verify_otp">Verify OTP &amp; Submit</string>
+    <string name="b_stock_in_hand">B-Stock in Hand</string>
+    <string name="click_again_to_exit">Please click again to exit !</string>
+    <string name="invalid_usernam_pass">Invalid Username Or Password !.....Please Try Again..</string>
+    <string name="loading_pls_wait">Loading please wait..</string>
+    <string name="please_fill_form_for_admin_approval">Please fill the bellow mandatory fields, which will sent for Admin approval</string>
+    <string name="any_field_cant_empty">Form fields can\'t be empty</string>
+    <string name="invalid_mobile_number">Mobile number is invalid</string>
+    <string name="admin_pending_status_description">Note - ** Your data has been sent for Admin\'s approval for login in hunter app , Please wait until admin\'s response.   This process may take some time , So close the app and open after some time **</string>
+    <string name="admin_active_status_description">Note - ** Your request has been approved from admin, now you can access hunter service from app **</string>
+    <string name="admin_reject_status_description">Note - ** Access of hunter services from app, has been denied from admin. Please contact admin for further details **</string>
+    <string name="your_application_status">Your Application Status is -</string>
+    <!--<string name="progress">Progress</string>-->
+    <string name="active">Active</string>
+    <string name="Select">Select</string>
+    <string name="rejected">Rejected</string>
+    <string name="progress">Progress</string>
+    <string name="cancel">Cancel</string>
+    <string name="next_CamelCase">Next</string>
+    <string name="proceed">Proceed</string>
+    <string name="or">OR</string>
+    <string name="refresh">Refresh</string>
+    <string name="welcome_to_hunter">Welcome to Hunter</string>
+</resources>

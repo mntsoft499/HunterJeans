@@ -1,0 +1,34 @@
+{
+  "clist": [
+    {
+      "menuId": 0,
+      "menuName": "Branch Info",
+      "menuicon": "&#xf0a4;",
+      "itemcolor": "#388e3c"
+    },
+    {
+      "menuId": 1,
+      "menuName": "Billing",
+      "menuicon": "&#xf1ad;",
+      "itemcolor": "#c62828"
+    },
+    {
+      "menuId": 2,
+      "menuName": "Sales Report",
+      "menuicon": "&#xf0d6;",
+      "itemcolor": "#f4511e"
+    },
+    {
+      "menuId": 3,
+      "menuName": "Billing Report",
+      "menuicon": "&#xf07a;",
+      "itemcolor": "#0277bd"
+    },
+    {
+      "menuId": 4,
+      "menuName": "B-Stock in hand",
+      "menuicon": "&#xf2d2;",
+      "itemcolor": "#f9a825"
+    }
+  ]
+}

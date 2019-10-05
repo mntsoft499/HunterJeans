@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+
+    {
+  "clist": [
+    {
+      "menuId": 0,
+      "menuName": "Branch Info",
+      "menuicon": "&#xf0a4;",
+      "itemcolor": "#388e3c"
+    },
+    {
+      "menuId": 1,
+      "menuName": "Billing",
+      "menuicon": "&#xf1ad;",
+      "itemcolor": "#c62828"
+    },
+    {
+      "menuId": 2,
+      "menuName": "Sales Report",
+      "menuicon": "&#xf0d6;",
+      "itemcolor": "#f4511e"
+    },
+    {
+      "menuId": 3,
+      "menuName": "Billing Report",
+      "menuicon": "&#xf07a;",
+      "itemcolor": "#0277bd"
+    },
+    {
+      "menuId": 4,
+      "menuName": "WH1-Stock in hand",
+      "menuicon": "&#xf19a;",
+      "itemcolor": "#7B1FA2"
+    },
+    {
+      "menuId": 5,
+      "menuName": "WH2-Stock in hand",
+      "menuicon": "&#xf19a;",
+      "itemcolor": "#5D4037"
+    },
+    {
+      "menuId": 6,
+      "menuName": "B-Stock in hand",
+      "menuicon": "&#xf2d2;",
+      "itemcolor": "#f9a825"
+    },
+    {
+      "menuId": 7,
+      "menuName": "Stock Receive",
+      "menuicon": "&#xf0a9;",
+      "itemcolor": "#827717"
+    },
+    {
+      "menuId": 8,
+      "menuName": "Bank Deposit",
+      "menuicon": "&#xf156;",
+      "itemcolor": "#5D4037"
+    }
+  ]
+}
+
+    -->
+
+</LinearLayout>

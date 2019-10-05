@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">19sp</dimen>
+    <dimen name="dia_text_size">19sp</dimen>
+    <dimen name="title_text_size">17sp</dimen>
+    <dimen name="content_text_size">14.5sp</dimen>
+    <dimen name="infocontent">12.5sp</dimen>
+    <dimen name="gndy_text_size">17sp</dimen>
+    <dimen name="tool_marg_left">30dp</dimen>
+    <dimen name="img_width">800dp</dimen>
+    <dimen name="img_height">980dp</dimen>
+    <dimen name ="slider_width">800dp</dimen>
+    <dimen name ="slider_height">1050dp</dimen>
+    <dimen name="dia_dimen">320dp</dimen>
+    <dimen name="history_text_size">14sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+</resources>

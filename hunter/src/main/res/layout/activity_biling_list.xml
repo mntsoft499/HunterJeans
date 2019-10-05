@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/loginPageBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="fitXY"
+        android:src="@drawable/login_background" />
+    <android.support.v7.widget.CardView
+        android:id="@+id/scan_icon_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        card:cardElevation="4dp"
+        card:cardCornerRadius="4dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/branchName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Branch :"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@color/gray_dark"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/branch_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/branchName"
+                    android:text="Hyderabad"
+                    android:textSize="16sp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/scan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="8dp"
+                android:paddingRight="8dp"
+                android:background="@drawable/round_cards_blue"
+                >
+                <ImageView
+                    android:id="@+id/scan_product"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:tint="@color/blue_scan"
+                    android:background="@color/white"
+                    android:src="@drawable/qrcode"
+                    android:padding="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan Product"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_scan"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!--<View-->
+        <!--android:id="@+id/view1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:layout_below="@+id/scan_icon_container"-->
+        <!--android:background="@color/darkgray"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:id="@+id/billing_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:layout_below="@+id/scan_icon_container"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Product Name"
+            android:textColor="@color/showhide"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Sales Price"
+            android:textColor="@color/showhide"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Qty"
+            android:textColor="@color/showhide"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Amount"
+            android:textColor="@color/showhide"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/product_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_below="@+id/billing_list_title"
+        android:layout_above="@+id/view2"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dark"
+        android:layout_above="@+id/net_amount_level"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/net_amount_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Net Amount (Rs.) : "
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/bottomContainer"
+        />
+    <TextView
+        android:id="@+id/net_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00.00"
+        android:textSize="20sp"
+        android:textColor="@color/showhide"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/net_amount_level"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_above="@+id/bottomContainer"
+        />
+    <LinearLayout
+        android:id="@+id/undo_last_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/bottomContainer"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/round_corner_light_color"
+        android:layout_marginBottom="2dp"
+        android:text="Undo"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="2dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textAllCaps="false">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/undo"
+            android:tint="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undo Last Scan"
+            android:layout_marginLeft="4dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true"
+        >
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/cancel_billing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/red_accent"
+            android:tint="@color/white"
+            android:textAllCaps="false"
+            android:layout_weight="0.5"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_CamelCase"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorAccent"
+            android:tint="@color/white"
+            android:textAllCaps="false"
+            android:layout_weight="0.5"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
